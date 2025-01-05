@@ -5,7 +5,7 @@ Follow these steps to set up the project locally:
 ### Backend
 1. Navigate to the backend: 
     ```bash
-    cd materials/flask_app
+    cd materials-web/flask_app
     ```
 2. Create and activate a virtual environment:
     ```bash
@@ -26,7 +26,7 @@ The server will be running at http://127.0.0.1:5000.
 ### Backend
 1. Navigate to the frontend: 
     ```bash
-    cd materials/frontend
+    cd materials-web/frontend
     ```
 2. Install dependencies:
     ```bash
