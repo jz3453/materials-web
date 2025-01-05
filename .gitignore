@@ -1,7 +1,8 @@
 # dependencies
 /frontend/node_modules
 
-# venv
+# env
+/frontend/.env
 /flask_app/venv
 
 # misc
