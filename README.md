@@ -30,7 +30,7 @@ The server will be running at http://127.0.0.1:5000.
     ```
 2. Install dependencies:
     ```bash
-    npm install
+    npm install --force
     ```
 3. Start the React development server:
     ```bash
