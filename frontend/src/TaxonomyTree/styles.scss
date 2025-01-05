@@ -1,0 +1,132 @@
+body * {
+    box-sizing: border-box;
+    font-size: 11px;
+}
+  
+$grid: 24px;
+$colorGray: #989898;
+
+@mixin pseudoStyles($width, $height) {
+    content: '';
+    display: block;
+    width: $width;
+    height: $height;
+    background-color: $colorGray;
+    position: absolute;
+    z-index: 20;
+}
+
+.parent-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    font-size: 11px;
+
+    &.gray {
+        color: #aaa;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.leaf-node {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 11px;
+
+    &.gray {
+        color: #aaa;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.taxonomy-tree {
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    margin-left: -30px;
+
+    .node {
+        display: flex;
+
+        &__parent {
+            position: relative;
+            width: 84px;
+
+            &__line {
+                position: absolute;
+                width: 1.5px;
+                background-color: $colorGray;
+                right: calc(100% + #{$grid});
+                z-index: 10;
+            }
+
+            &__element { 
+                min-width: 84px;
+                width: 100%;
+                margin-bottom: $grid / 2;
+                display: flex;
+                align-items: center;
+    
+                &.has-children:after {
+                    @include pseudoStyles($grid, 1.5px);
+                    left: 100%;
+                }
+          
+                &.has-parent:before {
+                    @include pseudoStyles($grid, 1.5px);
+                    right: 100%;
+                }
+          
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        &__children {
+            margin-left: $grid * 2;
+            position: relative;
+            flex: 1;
+        }
+
+        &__leafs {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5px 15px;
+            width: 300px;
+            margin-left: 54px;
+
+            &__leafcontainer {
+                position: relative;
+            }
+        }
+    }
+}
+
+.tooltip {
+    position: absolute;
+    top: 30px;
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    width: 240px;
+    background-color: white;
+    border: 1px solid $colorGray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    pointer-events: none;
+    white-space: nowrap; 
+}

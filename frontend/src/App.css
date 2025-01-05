@@ -1,0 +1,101 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.topbar-section {
+  position: sticky;
+  top: 0; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0 50px;
+  background-color: #000000;
+  z-index: 1000;
+}
+
+.topbar-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.topbar-item {
+  color: #cecece;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.topbar-item:hover {
+  color: #ffffff;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.regular-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.taxonomy-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.taxonomy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dropdown-label {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.dropdown {
+  width: 150px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.space {
+  width: 100%;
+  height: 200px;
+}
+
+.sidebar-container {
+  width: 350px;
+  background-color: #b7b7b7;
+}

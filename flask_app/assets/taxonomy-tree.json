@@ -1,0 +1,614 @@
+{
+    "id": 0,
+    "name": "tree",
+    "children": [
+        {
+            "id": 1,
+            "name": "Root",
+            "children": [
+                {
+                    "id": 2,
+                    "name": "Liquid",
+                    "children": [],
+                    "counts": {
+                        "robotics": 1500,
+                        "graphics": 1500,
+                        "remote_sensing": 1500
+                    }
+                },
+                {
+                    "id": 3,
+                    "name":
+                    "Gas",
+                    "children": [],
+                    "counts": {
+                        "robotics": 1500,
+                        "graphics": 1500,
+                        "remote_sensing": 1500
+                    }
+                },
+                {
+                    "id": 4,
+                    "name": "Solid",
+                    "children": [
+                        {
+                            "id": 6,
+                            "name": "Animate",
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "name": "Plant",
+                                    "children": [
+                                        {
+                                            "id": 13,
+                                            "name": "Woody",
+                                            "children": [
+                                                {
+                                                    "id": 28,
+                                                    "name": "Tree",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 29,
+                                                    "name": "Shrub",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 14,
+                                            "name": "Semi-woody",
+                                            "children": [
+                                                {
+                                                    "id": 30,
+                                                    "name": "Flower",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0, 
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 31,
+                                                    "name": "Foliage",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 15,
+                                            "name": "Herbaceous",
+                                            "children": [
+                                                {
+                                                    "id": 32,
+                                                    "name": "Flowering Shrub",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 33,
+                                                    "name": "Food-bearing",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 16,
+                                            "name": "Trailing",
+                                            "children": [
+                                                {
+                                                    "id": 34,
+                                                    "name": "Clover",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 100,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 35,
+                                                    "name": "Grass",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0, 
+                                                        "graphics": 4000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 36,
+                                                    "name": "Ivy",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                { 
+                                    "id": 12,
+                                    "name": "Derivative",
+                                    "children": [
+                                        {
+                                            "id": 17,
+                                            "name": "Plant-based",
+                                            "children": [
+                                                {
+                                                    "id": 20,
+                                                    "name": "Fruit",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 21,
+                                                    "name": "Vegetable",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 50,
+                                                        "remote_sensing": 50
+                                                    }
+                                                },
+                                                {
+                                                    "id": 22,
+                                                    "name": "Grain",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 18,
+                                            "name": "Animal-based",
+                                            "children": [
+                                                {
+                                                    "id": 23,
+                                                    "name": "Fur", 
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 500,
+                                                        "graphics": 3000,
+                                                        "remote_sensing": 100
+                                                    }
+                                                },
+                                                {
+                                                    "id": 24,
+                                                    "name": "Hide",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 25,
+                                                    "name": "Meat",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 1000,
+                                                        "remote_sensing":0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 19,
+                                            "name": "Decay",
+                                            "children": [
+                                                {
+                                                    "id": 26,
+                                                    "name": "Soil", 
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 27,
+                                                    "name": "Waste",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1500,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "Inanimate",
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "name": "Metal",
+                                    "children": [
+                                        {
+                                            "id": 37,
+                                            "name": "Ferrous",
+                                            "children": [
+                                                {
+                                                    "id": 39,
+                                                    "name": "Iron",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 40,
+                                                    "name": "Steel",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 38,
+                                            "name": "Non-Ferrous",
+                                            "children": [
+                                                {
+                                                    "id": 41,
+                                                    "name": "Aluminum",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 42,
+                                                    "name": "Brass",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 43,
+                                                    "name": "Bronze",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 3500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 44,
+                                                    "name": "Copper",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 3500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Rock", 
+                                    "children": [
+                                        {
+                                            "id": 45,
+                                            "name": "Mass",
+                                            "children": [
+                                                {
+                                                    "id": 47,
+                                                    "name": "Granite",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 500,
+                                                        "graphics": 500,
+                                                        "remote_sensing": 50
+                                                    }
+                                                },
+                                                {
+                                                    "id": 48,
+                                                    "name": "Limestone",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 49,
+                                                    "name": "Marble",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000, 
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                { 
+                                                    "id": 50,
+                                                    "name": "Sandstone",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                { 
+                                                    "id": 51,
+                                                    "name": "Shale",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 52,
+                                                    "name": "Quartz",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 46,
+                                            "name": "Aggregate",
+                                            "children": [
+                                                {
+                                                    "id": 53,
+                                                    "name": "Clay",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 54,
+                                                    "name": "Dirt",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 55,
+                                                    "name": "Gravel",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 56,
+                                                    "name": "Sand",
+                                                    "children": [],
+                                                    "counts":
+                                                    {
+                                                        "robotics": 500,
+                                                        "graphics": 2000,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Ceramic",
+                                    "children": [
+                                        {
+                                            "id": 57,
+                                            "name": "Pottery",
+                                            "children": [
+                                                {
+                                                    "id": 59,
+                                                    "name": "Porcelain",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 60,
+                                                    "name": "Stoneware",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 50
+                                                    }
+                                                },
+                                                {
+                                                    "id": 61,
+                                                    "name": "Terracotte",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 58,
+                                            "name": "Structural",
+                                            "children": [
+                                                {
+                                                    "id": 62,
+                                                    "name": "Brick",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 0,
+                                                        "remote_sensing": 1500
+                                                    }
+                                                },
+                                                {
+                                                    "id": 63,
+                                                    "name": "Cement",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 64,
+                                                    "name": "Glass",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 2500,
+                                                        "graphics": 3000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 9,
+                                    "name": "Polymer",
+                                    "children": [
+                                        {
+                                            "id": 65,
+                                            "name": "Fiber",
+                                            "children": [
+                                                {
+                                                    "id": 67,
+                                                    "name": "Cotton",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 3000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 68,
+                                                    "name": "Linen",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 2000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 69,
+                                                    "name": "Nylon",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 1500,
+                                                        "graphics": 2000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 70,
+                                                    "name": "Polyester",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 500,
+                                                        "graphics": 1000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                },
+                                                {
+                                                    "id": 71,
+                                                    "name": "Silk",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 3000,
+                                                        "remote_sensing": 0
+                                                    }
+                                                },
+                                                {
+                                                    "id": 72,
+                                                    "name": "Wool",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "robotics": 0,
+                                                        "graphics": 2000,
+                                                        "remote_sensing": 1000
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id":66,"name":"Plastic","children":[{"id":73,"name":"Elastomer","children":[],"counts":{"robotics":0,"graphics":0,"remote_sensing":1000}},{"id":74,"name":"Thermoplastic","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":75,"name":"Thermoset","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":1000}}]}]},{"id":10,"name":"Composite","children":[{"id":76,"name":"Mixture","children":[{"id":78,"name":"Paint","children":[],"counts":{"robotics":1500,"graphics":2000,"remote_sensing":0}},{"id":79,"name":"Foam","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":10}},{"id":80,"name":"Wax","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}}]},{"id":77,"name":"Matrix","children":[{"id":81,"name":"Asphalt","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":82,"name":"Carbon Fiber","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}},{"id":83,"name":"Cardboard","children":[],"counts":{"robotics":500,"graphics":1000,"remote_sensing":100}},{"id":84,"name":"Carpet","children":[],"counts":{"robotics":500,"graphics":1000,"remote_sensing":1000}},{"id":85,"name":"Concrete","children":[],"counts":{"robotics":1000,"graphics":0,"remote_sensing":2000}},{"id":86,"name":"Paper","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}},{"id":87,"name":"Plaster","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":88,"name":"Wood","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":0}}]}]}]}]}]}]}
