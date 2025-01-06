@@ -1,0 +1,15 @@
+$image_width: 120px;
+$image_gap: 5px;
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    width: 10 * $image_width + 9 * $image_gap;
+
+    &__image {
+        width: 120px;
+        height: 120px;
+        padding: 0;
+    }
+}

@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
 import { DOMAINS } from "./constants";
+import DataSampleDisplay from "./DataSampleDisplay/DataSampleDisplay";
 import TaxonomyTree from "./TaxonomyTree/TaxonomyTree";
+import SideBar from "./SideBar/SideBar";
 import './App.css';
 
 // const apiUrl = process.env.REACT_APP_API_URL + "/api/tree";
@@ -13,9 +15,15 @@ function App() {
   const [error, setError] = useState(null);
 
   const [selectedDomain, setSelectedDomain] = useState("");
+  const [selectedClass, setSelectedClass] = useState("Root")
 
   const handleDropdownChange = (event) => {
     setSelectedDomain(event.target.value);
+  }
+
+  const handleClassSelected = (c) => {
+    setSelectedClass(c)
+    console.log("new class selected")
   }
 
   useEffect(() => {
@@ -47,13 +55,17 @@ function App() {
   return (
     <div className="App">
       <div className="topbar-section">
-        <div className="topbar-title">Matador</div>
+        <a href="#matador-intro" className="topbar-title">Matador</a>
         <a href="#taxonomy-section" className="topbar-item">Taxonomy</a>
         <a href="#overview-section" className="topbar-item">Overview</a>
         <a href="#downloads-section" className="topbar-item">Downloads</a>
       </div>
       <div className="page-content">
-        <div className="title">A Visual Taxonomy of Materials</div>
+        <div id="matador-intro" className="title">A Visual Taxonomy of Materials</div>
+        <section className="image-grid-container">
+          <DataSampleDisplay />
+          <div className="image-grid-caption">The Matador material image dataset is dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </section>
         <section id="taxonomy-section" className="section">
           <div className="section-title">Taxonomy</div>
           <div className="taxonomy-section">
@@ -67,10 +79,11 @@ function App() {
               <TaxonomyTree
                 taxonomyTree={taxonomyTree} 
                 selectedDomain={selectedDomain}
+                handleClassSelected={handleClassSelected}
               />
             </div>
             <div className="sidebar-container">
-
+              <SideBar selectedClass={selectedClass} />
             </div>
           </div>
         </section>

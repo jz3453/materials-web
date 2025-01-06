@@ -64,26 +64,28 @@ const chartOptions = {
     },
 };
 
-function Parent({ node, isGray, setHoveredNode }) {
+function Parent({ node, isGray, setHoveredNode, handleClassSelected }) {
     return (
         <div className={classNames("parent-name", {
             "gray": isGray,
             })}
             onMouseEnter={() => !isGray && setHoveredNode(node.id)}
             onMouseLeave={() => setHoveredNode(null)}
+            onClick={() => handleClassSelected(node.name)}
         >
             {node.name}
         </div>
     );
 };
 
-function LeafNode({ node, isGray, setHoveredNode }) {
+function LeafNode({ node, isGray, setHoveredNode, handleClassSelected }) {
     return (
         <div className={classNames("leaf-node", {
             "gray": isGray,
             })}
             onMouseEnter={() => !isGray && setHoveredNode(node.id)}
             onMouseLeave={() => setHoveredNode(null)}
+            onClick={() => handleClassSelected(node.name)}
         >
             {node.name}
         </div>
@@ -93,6 +95,7 @@ function LeafNode({ node, isGray, setHoveredNode }) {
 function TreeNode({
     children,
     selectedDomain,
+    handleClassSelected,
     level = 0,
     hasParent = false,
     marginBottomDefault = 2,
@@ -149,7 +152,7 @@ function TreeNode({
                     })}
                     style={{ height: itemHeightDefault }}
                 >
-                    <Parent node={node} isGray={isGray} setHoveredNode={setHoveredNode} />
+                    <Parent node={node} isGray={isGray} setHoveredNode={setHoveredNode} handleClassSelected={handleClassSelected} />
                     {
                         !isGray && hoveredNode === node.id && (
                             <div className="tooltip">
@@ -168,6 +171,7 @@ function TreeNode({
                             <TreeNode
                                 children={node.children}
                                 selectedDomain={selectedDomain}
+                                handleClassSelected={handleClassSelected}
                                 level={level + 1}
                                 hasParent
                             />
@@ -195,7 +199,7 @@ function TreeNode({
 
                                 return (
                                     <div className="node__leafs__leafcontainer">
-                                        <LeafNode node={child} isGray={isGray} setHoveredNode={setHoveredNode} />
+                                        <LeafNode node={child} isGray={isGray} setHoveredNode={setHoveredNode} handleClassSelected={handleClassSelected} />
                                         {!isGray && hoveredNode === child.id && (
                                             <div className="tooltip">
                                                 <div>{child.name}</div>
