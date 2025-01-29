@@ -16,7 +16,8 @@ Follow these steps to set up the project locally:
     ```bash
     pip install -r requirements.txt
     ```
-4. Run the Flask server
+4. Create a folder called `data` and populate with data. For this app, there will need to be subfolders `texture_img`, `texture_depth`, `context_img`, and `label`.
+5. Run the Flask server
     ```bash
     python app.py
     ```
