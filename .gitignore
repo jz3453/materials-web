@@ -5,6 +5,11 @@
 /frontend/.env
 /flask_app/venv
 
+# others
+/flask_app/assets/add_counts_to_tree.py
+/flask_app/assets/sort_counts.py
+/flask_app/data
+
 # misc
 .DS_Store
 .env.local

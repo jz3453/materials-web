@@ -4,29 +4,8 @@
     "children": [
         {
             "id": 1,
-            "name": "Root",
+            "name": "Matter",
             "children": [
-                {
-                    "id": 2,
-                    "name": "Liquid",
-                    "children": [],
-                    "counts": {
-                        "robotics": 1500,
-                        "graphics": 1500,
-                        "remote_sensing": 1500
-                    }
-                },
-                {
-                    "id": 3,
-                    "name":
-                    "Gas",
-                    "children": [],
-                    "counts": {
-                        "robotics": 1500,
-                        "graphics": 1500,
-                        "remote_sensing": 1500
-                    }
-                },
                 {
                     "id": 4,
                     "name": "Solid",
@@ -48,9 +27,12 @@
                                                     "name": "Tree",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 555,
+                                                        "Medicine and Health Sciences": 1935,
+                                                        "Natural Sciences": 1938,
+                                                        "Physical Sciences": 6752,
+                                                        "Technology and Applied Sciences": 12360,
+                                                        "All": 23540
                                                     }
                                                 },
                                                 {
@@ -58,12 +40,23 @@
                                                     "name": "Shrub",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 12154,
+                                                        "Medicine and Health Sciences": 5458,
+                                                        "Natural Sciences": 1985,
+                                                        "Physical Sciences": 12412,
+                                                        "Technology and Applied Sciences": 24296,
+                                                        "All": 56305
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 14,
@@ -74,9 +67,12 @@
                                                     "name": "Flower",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0, 
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 3472,
+                                                        "Medicine and Health Sciences": 9087,
+                                                        "Natural Sciences": 2679,
+                                                        "Physical Sciences": 11085,
+                                                        "Technology and Applied Sciences": 36232,
+                                                        "All": 62555
                                                     }
                                                 },
                                                 {
@@ -84,12 +80,23 @@
                                                     "name": "Foliage",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 28169,
+                                                        "Medicine and Health Sciences": 3546,
+                                                        "Natural Sciences": 3159,
+                                                        "Physical Sciences": 20229,
+                                                        "Technology and Applied Sciences": 12712,
+                                                        "All": 67815
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 15,
@@ -97,12 +104,15 @@
                                             "children": [
                                                 {
                                                     "id": 32,
-                                                    "name": "Flowering Shrub",
+                                                    "name": "Flowering shrub",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 0,
+                                                        "Medicine and Health Sciences": 0,
+                                                        "Natural Sciences": 0,
+                                                        "Physical Sciences": 0,
+                                                        "Technology and Applied Sciences": 0,
+                                                        "All": 0
                                                     }
                                                 },
                                                 {
@@ -110,12 +120,23 @@
                                                     "name": "Food-bearing",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 657,
+                                                        "Medicine and Health Sciences": 2616,
+                                                        "Natural Sciences": 1301,
+                                                        "Physical Sciences": 6857,
+                                                        "Technology and Applied Sciences": 12166,
+                                                        "All": 23597
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 16,
@@ -126,9 +147,12 @@
                                                     "name": "Clover",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 100,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 805,
+                                                        "Medicine and Health Sciences": 2249,
+                                                        "Natural Sciences": 1152,
+                                                        "Physical Sciences": 5442,
+                                                        "Technology and Applied Sciences": 10764,
+                                                        "All": 20412
                                                     }
                                                 },
                                                 {
@@ -136,9 +160,12 @@
                                                     "name": "Grass",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0, 
-                                                        "graphics": 4000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 7511,
+                                                        "Medicine and Health Sciences": 11997,
+                                                        "Natural Sciences": 3130,
+                                                        "Physical Sciences": 25158,
+                                                        "Technology and Applied Sciences": 37046,
+                                                        "All": 84842
                                                     }
                                                 },
                                                 {
@@ -146,16 +173,35 @@
                                                     "name": "Ivy",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 421,
+                                                        "Medicine and Health Sciences": 2025,
+                                                        "Natural Sciences": 641,
+                                                        "Physical Sciences": 2472,
+                                                        "Technology and Applied Sciences": 9090,
+                                                        "All": 14649
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         }
-                                    ]
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
                                 },
-                                { 
+                                {
                                     "id": 12,
                                     "name": "Derivative",
                                     "children": [
@@ -168,9 +214,12 @@
                                                     "name": "Fruit",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 63763,
+                                                        "Medicine and Health Sciences": 60923,
+                                                        "Natural Sciences": 17063,
+                                                        "Physical Sciences": 143363,
+                                                        "Technology and Applied Sciences": 255642,
+                                                        "All": 540754
                                                     }
                                                 },
                                                 {
@@ -178,9 +227,12 @@
                                                     "name": "Vegetable",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 50,
-                                                        "remote_sensing": 50
+                                                        "Computational Sciences": 137508,
+                                                        "Medicine and Health Sciences": 57205,
+                                                        "Natural Sciences": 48202,
+                                                        "Physical Sciences": 249426,
+                                                        "Technology and Applied Sciences": 200758,
+                                                        "All": 693099
                                                     }
                                                 },
                                                 {
@@ -188,12 +240,23 @@
                                                     "name": "Grain",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 81581,
+                                                        "Medicine and Health Sciences": 53103,
+                                                        "Natural Sciences": 53512,
+                                                        "Physical Sciences": 337260,
+                                                        "Technology and Applied Sciences": 212408,
+                                                        "All": 737864
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 18,
@@ -201,12 +264,15 @@
                                             "children": [
                                                 {
                                                     "id": 23,
-                                                    "name": "Fur", 
+                                                    "name": "Fur",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 500,
-                                                        "graphics": 3000,
-                                                        "remote_sensing": 100
+                                                        "Computational Sciences": 6491,
+                                                        "Medicine and Health Sciences": 4852,
+                                                        "Natural Sciences": 4905,
+                                                        "Physical Sciences": 13222,
+                                                        "Technology and Applied Sciences": 24496,
+                                                        "All": 53966
                                                     }
                                                 },
                                                 {
@@ -214,9 +280,12 @@
                                                     "name": "Hide",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 4055,
+                                                        "Medicine and Health Sciences": 1886,
+                                                        "Natural Sciences": 1242,
+                                                        "Physical Sciences": 5887,
+                                                        "Technology and Applied Sciences": 11258,
+                                                        "All": 24328
                                                     }
                                                 },
                                                 {
@@ -224,12 +293,23 @@
                                                     "name": "Meat",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 1000,
-                                                        "remote_sensing":0
+                                                        "Computational Sciences": 102403,
+                                                        "Medicine and Health Sciences": 243916,
+                                                        "Natural Sciences": 65681,
+                                                        "Physical Sciences": 562775,
+                                                        "Technology and Applied Sciences": 765698,
+                                                        "All": 1740473
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 19,
@@ -237,12 +317,15 @@
                                             "children": [
                                                 {
                                                     "id": 26,
-                                                    "name": "Soil", 
+                                                    "name": "Soil",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 195979,
+                                                        "Medicine and Health Sciences": 64128,
+                                                        "Natural Sciences": 182694,
+                                                        "Physical Sciences": 434655,
+                                                        "Technology and Applied Sciences": 241682,
+                                                        "All": 1119138
                                                     }
                                                 },
                                                 {
@@ -250,16 +333,43 @@
                                                     "name": "Waste",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1500,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 49655,
+                                                        "Medicine and Health Sciences": 15920,
+                                                        "Natural Sciences": 7006,
+                                                        "Physical Sciences": 60293,
+                                                        "Technology and Applied Sciences": 52466,
+                                                        "All": 185340
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         }
-                                    ]
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
                                 }
-                            ]
+                            ],
+                            "counts": {
+                                "Computational Sciences": 0,
+                                "Medicine and Health Sciences": 0,
+                                "Natural Sciences": 0,
+                                "Physical Sciences": 0,
+                                "Technology and Applied Sciences": 0,
+                                "All": 0
+                            }
                         },
                         {
                             "id": 5,
@@ -278,9 +388,12 @@
                                                     "name": "Iron",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 16884,
+                                                        "Medicine and Health Sciences": 66034,
+                                                        "Natural Sciences": 126598,
+                                                        "Physical Sciences": 378223,
+                                                        "Technology and Applied Sciences": 211614,
+                                                        "All": 799353
                                                     }
                                                 },
                                                 {
@@ -288,12 +401,23 @@
                                                     "name": "Steel",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 8997,
+                                                        "Medicine and Health Sciences": 34791,
+                                                        "Natural Sciences": 22123,
+                                                        "Physical Sciences": 416328,
+                                                        "Technology and Applied Sciences": 169634,
+                                                        "All": 651873
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 38,
@@ -304,9 +428,12 @@
                                                     "name": "Aluminum",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 54011,
+                                                        "Medicine and Health Sciences": 90316,
+                                                        "Natural Sciences": 97551,
+                                                        "Physical Sciences": 1231396,
+                                                        "Technology and Applied Sciences": 348818,
+                                                        "All": 1822092
                                                     }
                                                 },
                                                 {
@@ -314,9 +441,12 @@
                                                     "name": "Brass",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 85073,
+                                                        "Medicine and Health Sciences": 12225,
+                                                        "Natural Sciences": 13092,
+                                                        "Physical Sciences": 200884,
+                                                        "Technology and Applied Sciences": 67704,
+                                                        "All": 378978
                                                     }
                                                 },
                                                 {
@@ -324,9 +454,12 @@
                                                     "name": "Bronze",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 3500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 116019,
+                                                        "Medicine and Health Sciences": 59835,
+                                                        "Natural Sciences": 58038,
+                                                        "Physical Sciences": 355774,
+                                                        "Technology and Applied Sciences": 258696,
+                                                        "All": 848362
                                                     }
                                                 },
                                                 {
@@ -334,18 +467,37 @@
                                                     "name": "Copper",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 3500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 104203,
+                                                        "Medicine and Health Sciences": 60176,
+                                                        "Natural Sciences": 35920,
+                                                        "Physical Sciences": 394947,
+                                                        "Technology and Applied Sciences": 208798,
+                                                        "All": 804044
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         }
-                                    ]
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
                                 },
                                 {
                                     "id": 7,
-                                    "name": "Rock", 
+                                    "name": "Rock",
                                     "children": [
                                         {
                                             "id": 45,
@@ -356,9 +508,12 @@
                                                     "name": "Granite",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 500,
-                                                        "graphics": 500,
-                                                        "remote_sensing": 50
+                                                        "Computational Sciences": 3896,
+                                                        "Medicine and Health Sciences": 23697,
+                                                        "Natural Sciences": 59449,
+                                                        "Physical Sciences": 116533,
+                                                        "Technology and Applied Sciences": 57804,
+                                                        "All": 261379
                                                     }
                                                 },
                                                 {
@@ -366,9 +521,12 @@
                                                     "name": "Limestone",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 6555,
+                                                        "Medicine and Health Sciences": 12927,
+                                                        "Natural Sciences": 11490,
+                                                        "Physical Sciences": 46788,
+                                                        "Technology and Applied Sciences": 36740,
+                                                        "All": 114500
                                                     }
                                                 },
                                                 {
@@ -376,29 +534,38 @@
                                                     "name": "Marble",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000, 
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 5487,
+                                                        "Medicine and Health Sciences": 6014,
+                                                        "Natural Sciences": 5392,
+                                                        "Physical Sciences": 15685,
+                                                        "Technology and Applied Sciences": 45720,
+                                                        "All": 78298
                                                     }
                                                 },
-                                                { 
+                                                {
                                                     "id": 50,
                                                     "name": "Sandstone",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 3883,
+                                                        "Medicine and Health Sciences": 11383,
+                                                        "Natural Sciences": 20505,
+                                                        "Physical Sciences": 21428,
+                                                        "Technology and Applied Sciences": 60068,
+                                                        "All": 117267
                                                     }
                                                 },
-                                                { 
+                                                {
                                                     "id": 51,
                                                     "name": "Shale",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 8462,
+                                                        "Medicine and Health Sciences": 31841,
+                                                        "Natural Sciences": 152677,
+                                                        "Physical Sciences": 270944,
+                                                        "Technology and Applied Sciences": 125188,
+                                                        "All": 589112
                                                     }
                                                 },
                                                 {
@@ -406,12 +573,23 @@
                                                     "name": "Quartz",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 8991,
+                                                        "Medicine and Health Sciences": 12423,
+                                                        "Natural Sciences": 16953,
+                                                        "Physical Sciences": 338974,
+                                                        "Technology and Applied Sciences": 66808,
+                                                        "All": 444149
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 46,
@@ -422,9 +600,12 @@
                                                     "name": "Clay",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 1018,
+                                                        "Medicine and Health Sciences": 6477,
+                                                        "Natural Sciences": 3975,
+                                                        "Physical Sciences": 12746,
+                                                        "Technology and Applied Sciences": 16972,
+                                                        "All": 41188
                                                     }
                                                 },
                                                 {
@@ -432,9 +613,12 @@
                                                     "name": "Dirt",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 14247,
+                                                        "Medicine and Health Sciences": 30397,
+                                                        "Natural Sciences": 163011,
+                                                        "Physical Sciences": 96633,
+                                                        "Technology and Applied Sciences": 94730,
+                                                        "All": 399018
                                                     }
                                                 },
                                                 {
@@ -442,25 +626,46 @@
                                                     "name": "Gravel",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 4019,
+                                                        "Medicine and Health Sciences": 5638,
+                                                        "Natural Sciences": 6287,
+                                                        "Physical Sciences": 16240,
+                                                        "Technology and Applied Sciences": 12156,
+                                                        "All": 44340
                                                     }
                                                 },
                                                 {
                                                     "id": 56,
                                                     "name": "Sand",
                                                     "children": [],
-                                                    "counts":
-                                                    {
-                                                        "robotics": 500,
-                                                        "graphics": 2000,
-                                                        "remote_sensing": 1500
+                                                    "counts": {
+                                                        "Computational Sciences": 47031,
+                                                        "Medicine and Health Sciences": 131686,
+                                                        "Natural Sciences": 125668,
+                                                        "Physical Sciences": 563698,
+                                                        "Technology and Applied Sciences": 360434,
+                                                        "All": 1228517
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         }
-                                    ]
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
                                 },
                                 {
                                     "id": 8,
@@ -475,9 +680,12 @@
                                                     "name": "Porcelain",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 5793,
+                                                        "Medicine and Health Sciences": 43408,
+                                                        "Natural Sciences": 20053,
+                                                        "Physical Sciences": 185873,
+                                                        "Technology and Applied Sciences": 121594,
+                                                        "All": 376721
                                                     }
                                                 },
                                                 {
@@ -485,9 +693,12 @@
                                                     "name": "Stoneware",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 50
+                                                        "Computational Sciences": 4753,
+                                                        "Medicine and Health Sciences": 9876,
+                                                        "Natural Sciences": 8104,
+                                                        "Physical Sciences": 46320,
+                                                        "Technology and Applied Sciences": 62686,
+                                                        "All": 131739
                                                     }
                                                 },
                                                 {
@@ -495,12 +706,23 @@
                                                     "name": "Terracotte",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 0,
+                                                        "Medicine and Health Sciences": 0,
+                                                        "Natural Sciences": 0,
+                                                        "Physical Sciences": 0,
+                                                        "Technology and Applied Sciences": 0,
+                                                        "All": 0
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
                                             "id": 58,
@@ -511,9 +733,12 @@
                                                     "name": "Brick",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 0,
-                                                        "remote_sensing": 1500
+                                                        "Computational Sciences": 335,
+                                                        "Medicine and Health Sciences": 2738,
+                                                        "Natural Sciences": 895,
+                                                        "Physical Sciences": 4307,
+                                                        "Technology and Applied Sciences": 21186,
+                                                        "All": 29461
                                                     }
                                                 },
                                                 {
@@ -521,9 +746,12 @@
                                                     "name": "Cement",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 17768,
+                                                        "Medicine and Health Sciences": 6573,
+                                                        "Natural Sciences": 7384,
+                                                        "Physical Sciences": 58292,
+                                                        "Technology and Applied Sciences": 33620,
+                                                        "All": 123637
                                                     }
                                                 },
                                                 {
@@ -531,14 +759,33 @@
                                                     "name": "Glass",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 2500,
-                                                        "graphics": 3000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 13936,
+                                                        "Medicine and Health Sciences": 25049,
+                                                        "Natural Sciences": 13386,
+                                                        "Physical Sciences": 370201,
+                                                        "Technology and Applied Sciences": 118978,
+                                                        "All": 541550
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         }
-                                    ]
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
                                 },
                                 {
                                     "id": 9,
@@ -553,9 +800,12 @@
                                                     "name": "Cotton",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 3000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 156176,
+                                                        "Medicine and Health Sciences": 30768,
+                                                        "Natural Sciences": 9305,
+                                                        "Physical Sciences": 103417,
+                                                        "Technology and Applied Sciences": 109574,
+                                                        "All": 409240
                                                     }
                                                 },
                                                 {
@@ -563,9 +813,12 @@
                                                     "name": "Linen",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 2000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 26509,
+                                                        "Medicine and Health Sciences": 8165,
+                                                        "Natural Sciences": 5795,
+                                                        "Physical Sciences": 46518,
+                                                        "Technology and Applied Sciences": 45586,
+                                                        "All": 132573
                                                     }
                                                 },
                                                 {
@@ -573,9 +826,12 @@
                                                     "name": "Nylon",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 1500,
-                                                        "graphics": 2000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 2003,
+                                                        "Medicine and Health Sciences": 7557,
+                                                        "Natural Sciences": 1251,
+                                                        "Physical Sciences": 19782,
+                                                        "Technology and Applied Sciences": 33454,
+                                                        "All": 64047
                                                     }
                                                 },
                                                 {
@@ -583,9 +839,12 @@
                                                     "name": "Polyester",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 500,
-                                                        "graphics": 1000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 103804,
+                                                        "Medicine and Health Sciences": 23798,
+                                                        "Natural Sciences": 17332,
+                                                        "Physical Sciences": 251528,
+                                                        "Technology and Applied Sciences": 85240,
+                                                        "All": 481702
                                                     }
                                                 },
                                                 {
@@ -593,9 +852,12 @@
                                                     "name": "Silk",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 3000,
-                                                        "remote_sensing": 0
+                                                        "Computational Sciences": 73362,
+                                                        "Medicine and Health Sciences": 40717,
+                                                        "Natural Sciences": 49402,
+                                                        "Physical Sciences": 411285,
+                                                        "Technology and Applied Sciences": 179168,
+                                                        "All": 753934
                                                     }
                                                 },
                                                 {
@@ -603,12 +865,335 @@
                                                     "name": "Wool",
                                                     "children": [],
                                                     "counts": {
-                                                        "robotics": 0,
-                                                        "graphics": 2000,
-                                                        "remote_sensing": 1000
+                                                        "Computational Sciences": 1413,
+                                                        "Medicine and Health Sciences": 3141,
+                                                        "Natural Sciences": 1185,
+                                                        "Physical Sciences": 20306,
+                                                        "Technology and Applied Sciences": 19776,
+                                                        "All": 45821
                                                     }
                                                 }
-                                            ]
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
                                         },
                                         {
-                                            "id":66,"name":"Plastic","children":[{"id":73,"name":"Elastomer","children":[],"counts":{"robotics":0,"graphics":0,"remote_sensing":1000}},{"id":74,"name":"Thermoplastic","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":75,"name":"Thermoset","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":1000}}]}]},{"id":10,"name":"Composite","children":[{"id":76,"name":"Mixture","children":[{"id":78,"name":"Paint","children":[],"counts":{"robotics":1500,"graphics":2000,"remote_sensing":0}},{"id":79,"name":"Foam","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":10}},{"id":80,"name":"Wax","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}}]},{"id":77,"name":"Matrix","children":[{"id":81,"name":"Asphalt","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":82,"name":"Carbon Fiber","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}},{"id":83,"name":"Cardboard","children":[],"counts":{"robotics":500,"graphics":1000,"remote_sensing":100}},{"id":84,"name":"Carpet","children":[],"counts":{"robotics":500,"graphics":1000,"remote_sensing":1000}},{"id":85,"name":"Concrete","children":[],"counts":{"robotics":1000,"graphics":0,"remote_sensing":2000}},{"id":86,"name":"Paper","children":[],"counts":{"robotics":0,"graphics":1000,"remote_sensing":0}},{"id":87,"name":"Plaster","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":1000}},{"id":88,"name":"Wood","children":[],"counts":{"robotics":1500,"graphics":1000,"remote_sensing":0}}]}]}]}]}]}]}
+                                            "id": 66,
+                                            "name": "Plastic",
+                                            "children": [
+                                                {
+                                                    "id": 73,
+                                                    "name": "Elastomer",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 3037,
+                                                        "Medicine and Health Sciences": 16393,
+                                                        "Natural Sciences": 3732,
+                                                        "Physical Sciences": 94777,
+                                                        "Technology and Applied Sciences": 45890,
+                                                        "All": 163829
+                                                    }
+                                                },
+                                                {
+                                                    "id": 74,
+                                                    "name": "Thermoplastic",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 1829,
+                                                        "Medicine and Health Sciences": 1160,
+                                                        "Natural Sciences": 1179,
+                                                        "Physical Sciences": 53090,
+                                                        "Technology and Applied Sciences": 5330,
+                                                        "All": 62588
+                                                    }
+                                                },
+                                                {
+                                                    "id": 75,
+                                                    "name": "Thermoset",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 697,
+                                                        "Medicine and Health Sciences": 2087,
+                                                        "Natural Sciences": 1004,
+                                                        "Physical Sciences": 4570,
+                                                        "Technology and Applied Sciences": 6954,
+                                                        "All": 15312
+                                                    }
+                                                }
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
+                                        }
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "name": "Composite",
+                                    "children": [
+                                        {
+                                            "id": 76,
+                                            "name": "Mixture",
+                                            "children": [
+                                                {
+                                                    "id": 78,
+                                                    "name": "Paint",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 202458,
+                                                        "Medicine and Health Sciences": 24546,
+                                                        "Natural Sciences": 28987,
+                                                        "Physical Sciences": 115281,
+                                                        "Technology and Applied Sciences": 133194,
+                                                        "All": 504466
+                                                    }
+                                                },
+                                                {
+                                                    "id": 79,
+                                                    "name": "Foam",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 32041,
+                                                        "Medicine and Health Sciences": 63665,
+                                                        "Natural Sciences": 32734,
+                                                        "Physical Sciences": 668154,
+                                                        "Technology and Applied Sciences": 340480,
+                                                        "All": 1137074
+                                                    }
+                                                },
+                                                {
+                                                    "id": 80,
+                                                    "name": "Wax",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 7100,
+                                                        "Medicine and Health Sciences": 17114,
+                                                        "Natural Sciences": 2213,
+                                                        "Physical Sciences": 33925,
+                                                        "Technology and Applied Sciences": 50196,
+                                                        "All": 110548
+                                                    }
+                                                }
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
+                                        },
+                                        {
+                                            "id": 77,
+                                            "name": "Matrix",
+                                            "children": [
+                                                {
+                                                    "id": 81,
+                                                    "name": "Asphalt",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 91868,
+                                                        "Medicine and Health Sciences": 20328,
+                                                        "Natural Sciences": 11662,
+                                                        "Physical Sciences": 98629,
+                                                        "Technology and Applied Sciences": 77390,
+                                                        "All": 299877
+                                                    }
+                                                },
+                                                {
+                                                    "id": 82,
+                                                    "name": "Carbon fiber",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 7519,
+                                                        "Medicine and Health Sciences": 16875,
+                                                        "Natural Sciences": 21113,
+                                                        "Physical Sciences": 240163,
+                                                        "Technology and Applied Sciences": 53388,
+                                                        "All": 339058
+                                                    }
+                                                },
+                                                {
+                                                    "id": 83,
+                                                    "name": "Cardboard",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 33591,
+                                                        "Medicine and Health Sciences": 27669,
+                                                        "Natural Sciences": 6823,
+                                                        "Physical Sciences": 343520,
+                                                        "Technology and Applied Sciences": 103292,
+                                                        "All": 514895
+                                                    }
+                                                },
+                                                {
+                                                    "id": 84,
+                                                    "name": "Carpet",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 11713,
+                                                        "Medicine and Health Sciences": 5221,
+                                                        "Natural Sciences": 4538,
+                                                        "Physical Sciences": 13713,
+                                                        "Technology and Applied Sciences": 23306,
+                                                        "All": 58491
+                                                    }
+                                                },
+                                                {
+                                                    "id": 85,
+                                                    "name": "Concrete",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 2,
+                                                        "Medicine and Health Sciences": 13,
+                                                        "Natural Sciences": 9,
+                                                        "Physical Sciences": 76,
+                                                        "Technology and Applied Sciences": 32,
+                                                        "All": 132
+                                                    }
+                                                },
+                                                {
+                                                    "id": 86,
+                                                    "name": "Paper",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 496757,
+                                                        "Medicine and Health Sciences": 21891,
+                                                        "Natural Sciences": 59560,
+                                                        "Physical Sciences": 436729,
+                                                        "Technology and Applied Sciences": 221580,
+                                                        "All": 1236517
+                                                    }
+                                                },
+                                                {
+                                                    "id": 87,
+                                                    "name": "Plaster",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 3782,
+                                                        "Medicine and Health Sciences": 12035,
+                                                        "Natural Sciences": 1944,
+                                                        "Physical Sciences": 95606,
+                                                        "Technology and Applied Sciences": 32276,
+                                                        "All": 145643
+                                                    }
+                                                },
+                                                {
+                                                    "id": 88,
+                                                    "name": "Wood",
+                                                    "children": [],
+                                                    "counts": {
+                                                        "Computational Sciences": 23029,
+                                                        "Medicine and Health Sciences": 42539,
+                                                        "Natural Sciences": 12560,
+                                                        "Physical Sciences": 66509,
+                                                        "Technology and Applied Sciences": 190360,
+                                                        "All": 334997
+                                                    }
+                                                }
+                                            ],
+                                            "counts": {
+                                                "Computational Sciences": 0,
+                                                "Medicine and Health Sciences": 0,
+                                                "Natural Sciences": 0,
+                                                "Physical Sciences": 0,
+                                                "Technology and Applied Sciences": 0,
+                                                "All": 0
+                                            }
+                                        }
+                                    ],
+                                    "counts": {
+                                        "Computational Sciences": 0,
+                                        "Medicine and Health Sciences": 0,
+                                        "Natural Sciences": 0,
+                                        "Physical Sciences": 0,
+                                        "Technology and Applied Sciences": 0,
+                                        "All": 0
+                                    }
+                                }
+                            ],
+                            "counts": {
+                                "Computational Sciences": 0,
+                                "Medicine and Health Sciences": 0,
+                                "Natural Sciences": 0,
+                                "Physical Sciences": 0,
+                                "Technology and Applied Sciences": 0,
+                                "All": 0
+                            }
+                        }
+                    ],
+                    "counts": {
+                        "Computational Sciences": 0,
+                        "Medicine and Health Sciences": 0,
+                        "Natural Sciences": 0,
+                        "Physical Sciences": 0,
+                        "Technology and Applied Sciences": 0,
+                        "All": 0
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Liquid",
+                    "children": [],
+                    "counts": {
+                        "Computational Sciences": 0,
+                        "Medicine and Health Sciences": 0,
+                        "Natural Sciences": 0,
+                        "Physical Sciences": 0,
+                        "Technology and Applied Sciences": 0,
+                        "All": 0
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "Gas",
+                    "children": [],
+                    "counts": {
+                        "Computational Sciences": 0,
+                        "Medicine and Health Sciences": 0,
+                        "Natural Sciences": 0,
+                        "Physical Sciences": 0,
+                        "Technology and Applied Sciences": 0,
+                        "All": 0
+                    }
+                }
+            ],
+            "counts": {
+                "Computational Sciences": 0,
+                "Medicine and Health Sciences": 0,
+                "Natural Sciences": 0,
+                "Physical Sciences": 0,
+                "Technology and Applied Sciences": 0,
+                "All": 0
+            }
+        }
+    ],
+    "counts": {
+        "Computational Sciences": 555,
+        "Medicine and Health Sciences": 1935,
+        "Natural Sciences": 1938,
+        "Physical Sciences": 6752,
+        "Technology and Applied Sciences": 12360,
+        "All": 23540
+    }
+}

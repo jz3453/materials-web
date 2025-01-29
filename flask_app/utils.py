@@ -1,8 +1,10 @@
 import json
 from collections import Counter
 from pathlib import Path
-from typing import Callable, Dict, Union
+from typing import Callable, Dict, List, Union
 import networkx as nx
+import numpy as np
+import pandas as pd
 
 
 def get_taxonomy(
@@ -75,3 +77,62 @@ def aggregate_graph_attributes(
                     subgraph.nodes[node][attr] = value
 
     return subgraph
+
+DEFAULT_AUGMENTATIONS_X_ROTATIONS = np.linspace(
+    (_start := -30), (_stop := 30), int((_stop - _start) / 15) + 1
+)  # 15deg increments
+DEFAULT_AUGMENTATIONS_Y_ROTATIONS = np.linspace(
+    (_start := -30), (_stop := 30), int((_stop - _start) / 15) + 1
+)  # 15deg increments
+DEFAULT_AUGMENTATIONS_Z_ROTATIONS = np.array([0])  # no z rotation, for now
+DEFAULT_AUGMENTATIONS_X_TRANSLATIONS = np.zeros(1)  # no x translation
+DEFAULT_AUGMENTATIONS_Y_TRANSLATIONS = np.zeros(1)  # no y translation
+DEFAULT_AUGMENTATIONS_Z_TRANSLATIONS = np.geomspace(0.35, 3.0, 5)
+DEFAULT_AUGMENTATIONS_SIGMA_BLUR = np.array([0])
+
+
+def generate_augmentation_set(
+    x_rotations: np.ndarray = DEFAULT_AUGMENTATIONS_X_ROTATIONS,
+    y_rotations: np.ndarray = DEFAULT_AUGMENTATIONS_Y_ROTATIONS,
+    z_rotations: np.ndarray = DEFAULT_AUGMENTATIONS_Z_ROTATIONS,
+    x_translations: np.ndarray = DEFAULT_AUGMENTATIONS_X_TRANSLATIONS,
+    y_translations: np.ndarray = DEFAULT_AUGMENTATIONS_Y_TRANSLATIONS,
+    z_translations: np.ndarray = DEFAULT_AUGMENTATIONS_Z_TRANSLATIONS,
+    sigma_blurs: np.ndarray = DEFAULT_AUGMENTATIONS_SIGMA_BLUR,
+) -> List[np.ndarray]:
+    augmentations = [
+        x_translations,
+        y_translations,
+        z_translations,
+        x_rotations,
+        y_rotations,
+        z_rotations,
+        sigma_blurs
+    ]
+    combinations = np.stack(np.meshgrid(*augmentations), axis=-1).reshape(
+        -1, len(augmentations)
+    )
+    combinations = np.vstack(([None] * len(augmentations), combinations))
+
+    df = pd.DataFrame(
+        combinations,
+        columns=[
+            "xtrans[m]",
+            "ytrans[m]",
+            "ztrans[m]",
+            "xrot [deg]",
+            "yrot [deg]",
+            "zrot [deg]",
+            "blur [sigma]"
+        ],
+    )
+
+    result_dict = {
+        tuple(row): index  
+        for index, row in df.iterrows()
+    }
+
+    if (None, None, None, None, None, None, None) in result_dict:
+        result_dict[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)] = result_dict.pop((None, None, None, None, None, None, None))
+
+    return result_dict

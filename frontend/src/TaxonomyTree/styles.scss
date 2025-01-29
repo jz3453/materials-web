@@ -1,6 +1,6 @@
 body * {
     box-sizing: border-box;
-    font-size: 11px;
+    // font-size: 11px;
 }
   
 $grid: 24px;
@@ -22,7 +22,7 @@ $colorGray: #989898;
     justify-content: center;
     width: 100%;
     height: 36px;
-    font-size: 11px;
+    // font-size: 11px;
 
     &.gray {
         color: #aaa;
@@ -52,6 +52,35 @@ $colorGray: #989898;
     min-width: 1000px;
     margin-left: -30px;
 
+    .column-names {
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+        width: 100%;
+
+        .column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 132px;
+            font-size: 14px;
+            font-weight: 600;
+
+            &__first {
+                width: 108px;
+            }
+
+            &__last {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 274px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+
     .node {
         display: flex;
 
@@ -73,9 +102,12 @@ $colorGray: #989898;
                 margin-bottom: $grid / 2;
                 display: flex;
                 align-items: center;
+                border: #000000 1px solid;
+                background-color: #EBEDFF;
+                font-size: 11px;
     
                 &.has-children:after {
-                    @include pseudoStyles($grid, 1.5px);
+                    @include pseudoStyles(2 * $grid, 1.5px);
                     left: 100%;
                 }
           
@@ -86,6 +118,13 @@ $colorGray: #989898;
           
                 &:last-child {
                     margin-bottom: 0;
+                }
+
+                &.is-root {
+                    background-color: #ffffff;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 600;
                 }
             }
         }
@@ -99,10 +138,23 @@ $colorGray: #989898;
         &__leafs {
             position: relative;
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
-            gap: 0.5px 15px;
-            width: 300px;
-            margin-left: 54px;
+            gap: 0px 5px;
+            width: 250px;
+            margin-left: 48px;
+            padding: 2px 10objepx;
+            border: #000000 1px solid;
+
+            // &__line {
+            //     width: 24px;
+            //     height: 1.5px;
+            //     background-color: $colorGray;
+            //     position: absolute;
+            //     left: -24px; 
+            //     top: 50%;
+            //     transform: translateY(-50%);
+            // }
 
             &__leafcontainer {
                 position: relative;

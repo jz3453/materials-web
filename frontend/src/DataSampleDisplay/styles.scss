@@ -1,15 +1,66 @@
-$image_width: 120px;
+$image_width: 110px;
 $image_gap: 5px;
 
+.data-sample-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-grid-subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row-labels {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-right: 10px;
+
+    .row-label {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: $image_width;
+    }
+}
 .image-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 5px;
+    gap: $image_gap;
     width: 10 * $image_width + 9 * $image_gap;
 
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     &__image {
-        width: 120px;
-        height: 120px;
+        width: $image_width;
+        height: $image_width;
+        margin-bottom: $image_gap;
         padding: 0;
     }
+
+    &__image-label {
+        font-size: 12px;
+    }
+}
+
+.button-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.image-grid-caption {
+    width: 1100px;
+    font-size: 14px;
+    margin-top: 10px;
 }
