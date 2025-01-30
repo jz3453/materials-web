@@ -15,6 +15,7 @@ import { DOMAINS } from "./constants";
 import DataSampleDisplay from "./DataSampleDisplay/DataSampleDisplay";
 import TaxonomyTree from "./TaxonomyTree/TaxonomyTree";
 import SideBar from "./SideBar/SideBar";
+import DownloadsTable from "./DownloadsTable/DownloadsTable";
 import './App.css';
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, Title, Tooltip, Legend, ChartDataLabels);
@@ -125,12 +126,12 @@ function App() {
         <a href="#overview-section" className="topbar-item">Overview</a>
         <a href="#taxonomy-section" className="topbar-item">Taxonomy</a>
         <a href="#downloads-section" className="topbar-item">Downloads</a>
+        <a href="#evaluations-section" className="topbar-item">Evaluations</a>
       </div>
       <div className="page-content">
-        <div id="matador-intro" className="title">A Visual Taxonomy of Materials</div>
+        {/* <div id="matador-intro" className="title">A Visual Taxonomy of Materials</div> */}
         <section className="image-grid-container">
           <DataSampleDisplay />
-          {/* <div className="image-grid-caption">The Matador material image dataset is dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> */}
         </section>
         <section id="overview-section" className="section">
           <div className="section-title">Overview</div>
@@ -138,7 +139,7 @@ function App() {
           <p className="regular-text">Donec pharetra justo id porttitor aliquet. Nunc iaculis nulla at ligula efficitur commodo. Mauris dignissim, purus vitae scelerisque facilisis, nisl elit malesuada felis, ut malesuada justo risus vitae odio. Mauris malesuada, elit quis iaculis imperdiet, metus nisi feugiat orci, sit amet pretium lacus elit ultricies neque. Donec viverra blandit placerat. Ut porttitor iaculis leo, a ultricies turpis dictum aliquam. Vivamus auctor aliquet dolor, a aliquet arcu tempor ullamcorper. Sed ut fringilla ex. Vestibulum interdum dictum felis, a feugiat diam gravida sit amet. Integer imperdiet pretium urna, a convallis arcu. Cras et libero et tortor lobortis malesuada vitae ac eros. Vivamus massa leo, fringilla et nisi id, blandit interdum justo. Ut non tortor vel erat sagittis rhoncus. Donec consequat ut sem at pharetra. Nulla pharetra, diam nec rhoncus dictum, justo neque bibendum nunc, a euismod eros dui a risus. Proin tempor ligula at nunc bibendum, imperdiet cursus erat varius.</p>
         </section>
         <section id="taxonomy-section" className="section">
-          <div className="section-title">Taxonomy</div>
+          <div className="section-title">A Visual Taxonomy of Materials</div>
           <div className="taxonomy-section">
             <div className="taxonomy-container">
               <Dropdown 
@@ -166,6 +167,10 @@ function App() {
         </section>
         <section id="downloads-section" className="section">
           <div className="section-title">Downloads</div>
+          <DownloadsTable />
+        </section>
+        <section id="evaluations-section" className="section">
+          <div className="section-title">Evaluations</div>
         </section>
       </div>
       <div className="space"></div>
@@ -205,7 +210,7 @@ function BarChart({ domainCounts, selectedClass, hoveredNode }) {
     highlightedNode = hoveredNode
   }
   const backgroundColors = labels.map((label) =>
-    label === highlightedNode ? "rgba(255, 99, 132, 0.8)" : "rgba(58, 68, 160, 0.8)"
+    label === highlightedNode ? "rgba(255, 0, 28, 0.9)" : "rgba(0, 68, 136, 0.9)"
   );
 
   const data = {

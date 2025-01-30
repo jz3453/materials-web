@@ -1,10 +1,10 @@
 body * {
     box-sizing: border-box;
-    // font-size: 11px;
 }
   
 $grid: 24px;
 $colorGray: #989898;
+$nodeWidth: 84px;
 
 @mixin pseudoStyles($width, $height) {
     content: '';
@@ -22,7 +22,6 @@ $colorGray: #989898;
     justify-content: center;
     width: 100%;
     height: 36px;
-    // font-size: 11px;
 
     &.gray {
         color: #aaa;
@@ -47,10 +46,11 @@ $colorGray: #989898;
 }
 
 .taxonomy-tree {
+    position: relative;
     display: flex;
     flex-direction: column;
     min-width: 1000px;
-    margin-left: -30px;
+    margin-left: -20px;
 
     .column-names {
         display: flex;
@@ -86,7 +86,7 @@ $colorGray: #989898;
 
         &__parent {
             position: relative;
-            width: 84px;
+            width: $nodeWidth;
 
             &__line {
                 position: absolute;
@@ -97,7 +97,7 @@ $colorGray: #989898;
             }
 
             &__element { 
-                min-width: 84px;
+                min-width: $nodeWidth;
                 width: 100%;
                 margin-bottom: $grid / 2;
                 display: flex;
@@ -126,6 +126,11 @@ $colorGray: #989898;
                     font-size: 14px;
                     font-weight: 600;
                 }
+
+                &.is-dotted {
+                    border: $colorGray 1px dashed;
+                    background-color: #ffffff;
+                }
             }
         }
 
@@ -146,19 +151,53 @@ $colorGray: #989898;
             padding: 2px 10objepx;
             border: #000000 1px solid;
 
-            // &__line {
-            //     width: 24px;
-            //     height: 1.5px;
-            //     background-color: $colorGray;
-            //     position: absolute;
-            //     left: -24px; 
-            //     top: 50%;
-            //     transform: translateY(-50%);
-            // }
-
             &__leafcontainer {
                 position: relative;
             }
+        }
+    }
+
+    .vertical-phase-line {
+        position: absolute;
+        border-left: 1px dashed black;
+        height: 72px;
+        width: 1px;
+        top: 44px;
+        left: 108px;
+    }
+
+    .horizontal-phase-line {
+        position: absolute;
+        border-bottom: 1px dashed black;
+        width: 24px;
+        left: 108px;
+
+        &.liquid {
+            top: 80px;
+        }
+
+        &.gas {
+            top: 116px;
+        }
+    }
+
+    .dotted-phase-node {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: #000000 1px dashed;
+        width: $nodeWidth;
+        height: 27px;
+        font-size: 11px;
+
+        &.liquid {
+            top: 66px;
+            left: 132px;
+        }
+        &.gas {
+            top: 102px;
+            left: 132px;
         }
     }
 }

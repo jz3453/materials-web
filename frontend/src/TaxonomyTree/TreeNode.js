@@ -54,8 +54,13 @@ function TreeNode({
     itemHeightDefault = 27,
 }) {
 
+    if (level === 1) {
+        children = [children[0]];
+    }
+
     const { length } = children;
     const isRoot = level === 0;
+
     return children.map((node, index) => {
         const { id } = node;
         const childrenCount = node.children ? node.children.length : 0;
@@ -75,6 +80,7 @@ function TreeNode({
 
         const countForDomain = node.counts ? node.counts[selectedDomain] : 0;
         const isGray = selectedDomain && (!countForDomain || countForDomain === 0);
+        const isDotted = level === 1 && node.name !== "Solid";
 
         return (
         <div 
@@ -91,6 +97,7 @@ function TreeNode({
                         "has-children": childrenCount,
                         "has-parent": hasParent,
                         "is-root": isRoot,
+                        "is-dotted": isDotted,
                     })}
                     style={{ height: itemHeightDefault }}
                 >

@@ -23,6 +23,11 @@ function TaxonomyTree({ taxonomyTree, selectedDomain, handleClassSelected, setHo
                 handleClassSelected={handleClassSelected}
                 setHoveredNode={setHoveredNode}
             />
+            <div class="vertical-phase-line"></div>
+            <div class="horizontal-phase-line liquid"></div>
+            <div className="dotted-phase-node liquid">Liquid</div>
+            <div class="horizontal-phase-line gas"></div>
+            <div className="dotted-phase-node gas">Gas</div>
         </div>
     );
 }
