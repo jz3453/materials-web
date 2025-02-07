@@ -142,17 +142,17 @@ function App() {
           <div className="section-title">A Visual Taxonomy of Materials</div>
           <div className="taxonomy-section">
             <div className="taxonomy-container">
-              <Dropdown 
-                label="Domain:"
-                options={DOMAINS}
-                onChange={handleDropdownChange}
-                value={selectedDomain}
-              />
               <TaxonomyTree
                 taxonomyTree={taxonomyTree} 
                 selectedDomain={selectedDomain}
                 handleClassSelected={handleClassSelected}
                 setHoveredNode={setHoveredNode}
+              />
+              <Dropdown 
+                label="Domain:"
+                options={DOMAINS}
+                onChange={handleDropdownChange}
+                value={selectedDomain}
               />
             </div>
             <div className="sidebar-container">

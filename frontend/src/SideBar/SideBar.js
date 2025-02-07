@@ -141,6 +141,7 @@ function SideBar({ selectedClass, augmentationSet }) {
     return (
         <div className="sidebar">
             <div className="sidebar__title">"{selectedClass}" Images</div>
+            <div className="sidebar__subtitle">{images.length} Results</div>
             {images.length > 0 && (
                 <>
                     <div className="sidebar__render">

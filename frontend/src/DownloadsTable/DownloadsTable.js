@@ -21,7 +21,7 @@ const rows = [
 function DownloadsTable() {
   return (
     <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Table sx={{ minWidth: 650, tableLayout: 'fixed' }} aria-label="simple table">
         <TableHead>
           <TableRow>
             <TableCell>Full Dataset</TableCell>
