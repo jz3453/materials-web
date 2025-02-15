@@ -238,6 +238,13 @@ function BarChart({ domainCounts, selectedClass, hoveredNode }) {
       tooltip: {
         enabled: true,
       },
+      title: {
+        display: true,
+        text: 'Word Occurrences by Domain',
+        font: {
+          size: 15,
+        }
+      }
     },
     scales: {
       x: {
